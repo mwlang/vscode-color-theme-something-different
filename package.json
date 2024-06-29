@@ -2,7 +2,11 @@
   "name": "something-different",
   "displayName": "Something Different",
   "description": "A theme for those hankering for something different.",
-  "version": "0.0.1",
+  "repository": "https://github.com/mwlang/vscode-color-theme-something-different",
+  "publisher": "mwlang",
+  "icon": "images/icon.png",
+  "license": "MIT",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.90.0"
   },
