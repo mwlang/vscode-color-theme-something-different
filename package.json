@@ -1,0 +1,21 @@
+{
+  "name": "something-different",
+  "displayName": "Something Different",
+  "description": "A theme for those hankering for something different.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Something Different",
+        "uiTheme": "vs-dark",
+        "path": "./themes/something-different-color-theme.json"
+      }
+    ]
+  }
+}
