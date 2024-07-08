@@ -1,11 +1,5 @@
 {
 	"name": "Something Different",
-	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
-	},
 	"tokenColors": [
 		{
 			"name": "unison punctuation",
@@ -1838,15 +1832,16 @@
 		}
 	],
 	"colors": {
+		"editor.background": "#263238",
+		"editor.foreground": "#dedaa5",
 		"foreground": "#78a083",
 		"focusBorder": "#153138",
-		"selection.background": "#50727b",
 		"scrollbar.shadow": "#344955",
 		"activityBar.foreground": "#adb2af",
 		"activityBar.background": "#1e2b2e",
 		"activityBar.inactiveForeground": "#c3dbca",
 		"activityBarBadge.foreground": "#35374b",
-		"activityBarBadge.background": "#a79f58",
+		"activityBarBadge.background": "#c5bc69",
 		"activityBar.activeBackground": "#304145",
 		"sideBar.background": "#27393d",
 		"sideBar.foreground": "#e0e0e0",
@@ -1905,35 +1900,57 @@
 		"inputOption.activeForeground": "#ddf9e5",
 		"input.placeholderForeground": "#a6a6a6",
 		"textLink.foreground": "#99e6fb",
-		"editor.background": "#1e2b2e",
-		"editor.foreground": "#dedaa5",
 		"editorLineNumber.foreground": "#858585",
-		"editorCursor.foreground": "#c9ba38",
+		"editorCursor.foreground": "#FFF",
 		"editorCursor.background": "#1a1b28",
-		"editor.selectionBackground": "#204a54",
-		"editor.inactiveSelectionBackground": "#1d3c43",
 		"editorWhitespace.foreground": "#e3e4e229",
-		"editor.selectionHighlightBackground": "#78a083",
-		"editor.selectionHighlightBorder": "#78a083",
-		"editor.findMatchBackground": "#78a08395",
-		"editor.findMatchForeground": "#000000",
-		"editor.findMatchBorder": "#78a08340",
-		"editor.findMatchHighlightBackground": "#ffbb006f",
-		"editor.findMatchHighlightForeground": "#1a1b2830",
-		"editor.findMatchHighlightBorder": "#ffffff00",
-		"editor.findRangeHighlightBackground": "#3a3d4166",
-		"editor.findRangeHighlightBorder": "#ffffff00",
-		"editor.rangeHighlightBackground": "#ffffff0b",
-		"editor.rangeHighlightBorder": "#ffffff00",
-		"editor.hoverHighlightBackground": "#264f7840",
-		"editor.wordHighlightStrongBackground": "#004972b8",
-		"editor.wordHighlightBackground": "#575757b8",
+
+		// ///////////////////////////////////////////////////////
+
+		// Selections in input fields, not the editor
+		"selection.background": "#50727b",
+
+		// Interactive colors!
+
+		// The selection when actively selecting text
+		"editor.selectionBackground": "#d5d956b4",
+		"editor.inactiveSelectionBackground": "#f8020280",
+
+		// This is the active search match at the cursor position
+		"editor.findMatchBackground": "#4337dfb6",
+		"editor.findMatchForeground": "#ffffff",
+
+		// "editor.findMatchBorder": "#8ee3f66f",
+
+		// This is the active search other than the cursor's position
+		"editor.findMatchHighlightForeground": "#989340",
+		"editor.findMatchHighlightBackground": "#9904c763",
+		// "editor.findMatchHighlightBorder": "#ffffff00",
+
+		"editor.selectionHighlightBackground": "#6b6b33",
+
+		// "editor.selectionHighlightBorder": "#FF0000",
+		"editor.findRangeHighlightForeground": "#000",
+		"editor.findRangeHighlightBackground": "#f4b05dbb",
+
+		// "editor.findRangeHighlightBorder": "#ffffff00",
+		// "editor.rangeHighlightForeground": "#000",
+		"editor.rangeHighlightBackground": "#3b5a429d",
+		// "editor.rangeHighlightBorder": "#0000ff",
+		"editor.hoverHighlightBackground": "#f9fdd33f",
+		"editor.wordHighlightStrongBackground": "#6756339e",
+		"editor.wordHighlightBackground": "#588ea980",
+		"editor.lineHighlightForeground": "#000",
 		"editor.lineHighlightBackground": "#344a4f80",
 		"editor.lineHighlightBorder": "#344a4f80",
+
+		// ///////////////////////////////////////////////////////
 		"editorLineNumber.activeForeground": "#c6c6c6",
 		"editorLink.activeForeground": "#31b8d7",
-		"editorIndentGuide.background": "#254951",
-		"editorIndentGuide.activeBackground": "#5c7e86",
+		"editorIndentGuide.background1": "#254951",
+		"editorIndentGuide.activeBackground1": "#5c7e86",
+		"editorIndentGuide.background2": "#2a545d",
+		"editorIndentGuide.activeBackground2": "#5c7e86",
 		"editorRuler.foreground": "#254951",
 		"editorBracketMatch.background": "#ffbb006f",
 		"editorBracketMatch.border": "#ffbb007f",
